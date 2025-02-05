@@ -13,7 +13,7 @@ if seleccion == "🏠 Introducción":
     # Mostrar el logotipo centrado sin espacios extra
     col1, col2, col3 = st.columns([1, 3, 1])
     with col2:
-        st.image("loog-verde-tranferbyagent.svg", use_column_width=True)
+        st.image("loog-verde-tranferbyagent.svg", width=800)
 
     # Separador
     st.markdown("---")
