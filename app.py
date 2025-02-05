@@ -113,7 +113,7 @@ elif seleccion == "✅ Soluciones ToAgent":
     with tab1:
         st.subheader("🌍 Acceso Global a Mercados")
         st.write("""
-        TransferByAgent rompe las barreras geográficas en la industria del fútbol, permitiendo que agentes y clubes de cualquier parte del mundo se conecten sin depender exclusivamente de redes de contacto personales o intermediarios. Con acceso a más de 150 países, la plataforma facilita la expansión del mercado de fichajes, abriendo nuevas oportunidades para jugadores, agentes y clubes en diferentes ligas y niveles de competición.
+        ToAgent rompe las barreras geográficas en la industria del fútbol, permitiendo que agentes y clubes de cualquier parte del mundo se conecten sin depender exclusivamente de redes de contacto personales o intermediarios. Con acceso a más de 150 países, la plataforma facilita la expansión del mercado de fichajes, abriendo nuevas oportunidades para jugadores, agentes y clubes en diferentes ligas y niveles de competición.
         
         ¿Qué beneficios ofrece este acceso global?
         
@@ -131,7 +131,7 @@ elif seleccion == "✅ Soluciones ToAgent":
         
         Ejemplos de casos reales:
         
-        📌 Un agente peruano que representa a un mediocampista defensivo puede subir su perfil a TransferByAgent y, en menos de 72 horas, recibir interés de clubes portugueses o italianos que buscan un jugador con su perfil.
+        📌 Un agente peruano que representa a un mediocampista defensivo puede subir su perfil a ToAgent y, en menos de 72 horas, recibir interés de clubes portugueses o italianos que buscan un jugador con su perfil.
 
         📌 Un club de la segunda división de México necesita un delantero con experiencia en ligas sudamericanas. A través de la plataforma, puede encontrar a un atacante argentino sin necesidad de intermediarios externos, optimizando tiempo y costos en la negociación.
         """)
@@ -139,7 +139,7 @@ elif seleccion == "✅ Soluciones ToAgent":
     with tab2:
         st.subheader("🤖 Validación y Promoción de Jugadores")
         st.write("""
-        TransferByAgent se integra con APIs especializadas en datos de fútbol, lo que permite recopilar información en tiempo real sobre jugadores, estadísticas, videos y estado contractual. En lugar de depender exclusivamente de scouting manual o informes subjetivos, la plataforma obtiene datos estructurados y verificables desde fuentes confiables para validar y promocionar jugadores ante clubes de todo el mundo.
+        ToAgent se integra con APIs especializadas en datos de fútbol, lo que permite recopilar información en tiempo real sobre jugadores, estadísticas, videos y estado contractual. En lugar de depender exclusivamente de scouting manual o informes subjetivos, la plataforma obtiene datos estructurados y verificables desde fuentes confiables para validar y promocionar jugadores ante clubes de todo el mundo.
 
         ¿Cómo funciona este proceso?
         
@@ -153,7 +153,7 @@ elif seleccion == "✅ Soluciones ToAgent":
         Estado contractual y valor de mercado estimado
         
         ✅ Creación de perfiles de jugadores en tiempo real
-        Cuando un agente sube un jugador a TransferByAgent, la plataforma consulta automáticamente la API para completar su perfil con información validada y actualizada, evitando la carga manual de datos y reduciendo errores.
+        Cuando un agente sube un jugador a ToAgent, la plataforma consulta automáticamente la API para completar su perfil con información validada y actualizada, evitando la carga manual de datos y reduciendo errores.
 
         ✅ Recomendación inteligente de clubes
         Basándose en los criterios declarados por los clubes (posición, estilo de juego, disponibilidad, nivel competitivo), el sistema filtra jugadores dentro de la base de datos y sugiere automáticamente candidatos que encajan con sus necesidades.
@@ -173,7 +173,7 @@ elif seleccion == "✅ Soluciones ToAgent":
         st.write("""
         ToAgent proporciona herramientas integradas para el seguimiento del rendimiento, gestión de contratos y planificación de transferencias. Automatiza procesos administrativos como recordatorios de renovación de contratos y notificaciones de interés de clubes.
         
-        ¿Qué soluciones ofrece TransferByAgent?
+        ¿Qué soluciones ofrece ToAgent?
         
         ✅ Acceso centralizado a información
         Los clubes podrán visualizar en un solo lugar la situación de jugadores representados por agentes y agencias, con información fiable y actualizada sobre su disponibilidad en el mercado.
@@ -192,7 +192,7 @@ elif seleccion == "✅ Soluciones ToAgent":
     with tab4:
         st.subheader("🔒 Formalización de Procesos")
         st.write("""
-        TransferByAgent lleva la transparencia y seguridad en las transferencias de jugadores a otro nivel mediante el uso de contratos inteligentes y tecnología blockchain. Con estos mecanismos, todos los acuerdos entre clubes y agentes quedan registrados de forma inmutable, eliminando riesgos de incumplimientos, malentendidos o disputas legales.
+        ToAgent lleva la transparencia y seguridad en las transferencias de jugadores a otro nivel mediante el uso de contratos inteligentes y tecnología blockchain. Con estos mecanismos, todos los acuerdos entre clubes y agentes quedan registrados de forma inmutable, eliminando riesgos de incumplimientos, malentendidos o disputas legales.
 
         ¿Cómo funciona este proceso?
         
@@ -210,7 +210,7 @@ elif seleccion == "✅ Soluciones ToAgent":
 
         Ejemplo de casos reales:
         
-        📌 Un agente negocia la cesión de un delantero a un club europeo. Ambas partes firman un contrato inteligente en TransferByAgent, estableciendo que la comisión del agente se libere automáticamente cuando el jugador complete su debut oficial. Al cumplirse la condición, el pago se procesa sin retrasos ni intervención manual.
+        📌 Un agente negocia la cesión de un delantero a un club europeo. Ambas partes firman un contrato inteligente en ToAgent, estableciendo que la comisión del agente se libere automáticamente cuando el jugador complete su debut oficial. Al cumplirse la condición, el pago se procesa sin retrasos ni intervención manual.
 
         📌 Un club ficha a un mediocampista con una cláusula de rendimiento. Gracias al sistema blockchain, la plataforma verifica automáticamente si el jugador ha cumplido con los objetivos pactados (ejemplo: 20 partidos jugados), activando el pago de un bono adicional sin necesidad de renegociaciones o disputas.
         """)
@@ -301,7 +301,7 @@ elif seleccion == "👥 Casos Prácticos":
     
     st.subheader("👨‍💼 Caso de Agente Independiente")
     st.write("""
-    Un agente peruano representa a un mediocampista defensivo joven con gran potencial. Sin acceso a redes globales, le resultaba difícil encontrar oportunidades para su jugador. Con **TransferByAgent**:
+    Un agente peruano representa a un mediocampista defensivo joven con gran potencial. Sin acceso a redes globales, le resultaba difícil encontrar oportunidades para su jugador. Con **ToAgent**:
     - 📝 **Perfil Completo:** Sube el perfil del jugador a la plataforma, incluyendo videos, estadísticas y un análisis de IA que valida su calidad.
     - 🔎 **Búsqueda Eficiente:** Utiliza filtros avanzados para identificar clubes interesados en jugadores con características similares.
     - 📩 **Negociaciones Directas:** Recibe ofertas directamente a través de la plataforma, eliminando intermediarios y asegurando transparencia en las negociaciones.
@@ -310,7 +310,7 @@ elif seleccion == "👥 Casos Prácticos":
         
     st.subheader("⚽ Caso de Club 3ª División")
     st.write("""
-    Un club de 3ª división busca un delantero centro joven con experiencia internacional. Sin herramientas tecnológicas, este proceso sería extremadamente complicado. Con **TransferByAgent**:
+    Un club de 3ª división busca un delantero centro joven con experiencia internacional. Sin herramientas tecnológicas, este proceso sería extremadamente complicado. Con **ToAgent**:
     - 📋 **Búsqueda Específica:** Ingresa a la plataforma y aplica filtros avanzados: "Delantero centro", "Edad: 18-23 años", "Experiencia internacional", "Estado: Libre".
     - 📊 **Exploración de Opciones:** Revisa los resultados y selecciona los jugadores de interés.
     - 📩 **Comunicación Directa:** Envía ofertas directamente desde la plataforma y recibe respuestas en tiempo real.
@@ -319,7 +319,7 @@ elif seleccion == "👥 Casos Prácticos":
         
     st.subheader("🤝 Caso de colaboración entre Agentes (Agentes Vinculados)")
     st.write("""
-    Dos agentes, uno de Argentina y otro de México, deciden unir esfuerzos para promover el perfil de un mediocampista ofensivo que ha mostrado un rendimiento sobresaliente. Con **TransferByAgent**:
+    Dos agentes, uno de Argentina y otro de México, deciden unir esfuerzos para promover el perfil de un mediocampista ofensivo que ha mostrado un rendimiento sobresaliente. Con **ToAgent**:
     - 🔄 **Intercambio de Información:** Cada agente sube y comparte el perfil del jugador, enriquecido con datos validados y análisis de IA.
     - 🌍 **Estrategia Conjunta:** Utilizan la plataforma para coordinar una estrategia conjunta, identificando clubes internacionales interesados en perfiles similares.
     - 🤝 **Negociación Coordinada:** Al recibir ofertas, los agentes trabajan en conjunto para negociar de forma coordinada, asegurando que ambas partes sean reconocidas.
@@ -328,7 +328,7 @@ elif seleccion == "👥 Casos Prácticos":
     
     st.subheader("🌍 Caso de red de Agentes Internacionales")
     st.write("""
-    Una red de agentes de distintos países forma una alianza estratégica para impulsar a jugadores emergentes en mercados globales. Con **TransferByAgent**:
+    Una red de agentes de distintos países forma una alianza estratégica para impulsar a jugadores emergentes en mercados globales. Con **ToAgent**:
     - 📡 **Intercambio Global:** Los agentes integran sus perfiles de jugadores, enriquecidos con análisis de rendimiento y videos destacados, en una base de datos compartida.
     - 💼 **Acceso a Mercados:** Aprovechan el acceso a más de 150 países para promocionar oportunidades y ofertas de transferencias.
     - 🔍 **Validación y Transparencia:** Gracias a la integración de APIs, IA y registro en Blockchain, toda la información es validada y transparente, generando confianza entre las partes.
