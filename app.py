@@ -351,11 +351,10 @@ elif seleccion == "🏆 Conclusiones":
 
     ⏱️ Productividad maximizada: La automatización de procesos y la optimización mediante herramientas inteligentes permiten a los agentes y clubes concentrarse en lo más importante: el desarrollo del talento y la mejora de su rendimiento. Es un cambio total en la forma de hacer negocios, donde el tiempo y los recursos son aprovechados al máximo.
 
-    💡 Un ecosistema democrático y accesible: TransferbyAgent no es un juego para unos pocos. Es para todos. Desde el agente independiente que busca abrirse camino hasta el club pequeño que aspira a competir con los grandes, todos tienen la misma oportunidad de crecer y prosperar. El futuro del fútbol es inclusivo, y TransferbyAgent es su motor.)
-
-    else:
-        st.header("🔍 Contenido Adicional")
-        st.write("Explora más detalles sobre cómo TransferbyAgent está transformando el mercado del fútbol profesional.""")
+    💡 Un ecosistema democrático y accesible: TransferbyAgent no es un juego para unos pocos. Es para todos. Desde el agente independiente que busca abrirse camino hasta el club pequeño que aspira a competir con los grandes, todos tienen la misma oportunidad de crecer y prosperar.
+    
+    El futuro del fútbol es inclusivo, y TransferbyAgent es su motor.
+    """)
 
 # Footer con emojis
 st.write("---")
