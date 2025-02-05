@@ -1,11 +1,11 @@
 import streamlit as st
 
 # Configuración inicial de Streamlit
-st.set_page_config(page_title="TRANSFERBYAGENT - Presentación", layout="wide")
+st.set_page_config(page_title="TOAGENT - Presentación", layout="wide")
 
 # Barra lateral: Menú principal con emojis 📋
 st.sidebar.title("📋 Menú de Navegación")
-secciones = ["🏠 Introducción", "❌ Problemas Detectados", "✅ Soluciones TransferbyAgent", 
+secciones = ["🏠 Introducción", "❌ Problemas Detectados", "✅ Soluciones ToAgent", 
              "📊 Datos del Informe FIFA", "👥 Casos Prácticos",  "🏆 Conclusiones"]
 seleccion = st.sidebar.radio("Selecciona una sección:", secciones)
 
@@ -13,18 +13,18 @@ if seleccion == "🏠 Introducción":
     # Mostrar el logotipo centrado sin espacios extra
     col1, col2, col3 = st.columns([1, 3, 1])
     with col2:
-        st.image("loog-verde-tranferbyagent.svg", width=800)
+        st.image("logo-toagent-verde.png", width=800)
 
     # Separador
     st.markdown("---")
 
     # Contenido de la introducción
     st.markdown("""
-    **Bienvenidos a TransferbyAgent**, la plataforma revolucionaria que está transformando el mundo de las transferencias en el fútbol profesional.
+    **Bienvenidos a ToAgent**, la plataforma revolucionaria que está transformando el mundo de las transferencias en el fútbol profesional.
 
     El fútbol es mucho más que un deporte; es un vibrante ecosistema que une pasión, talento y oportunidades. Sin embargo, el sistema tradicional de transferencias enfrenta desafíos estructurales que afectan a **agentes independientes**, **clubes pequeños** y **jugadores emergentes**. De acuerdo con el informe oficial de la FIFA 2024, solo el **5% de las agencias maneja el 60% de todas las transferencias internacionales**, lo que deja a muchos actores en una posición de desventaja.
 
-    Conscientes de estas limitaciones, **TransferbyAgent** nace con la misión de democratizar el acceso a oportunidades, creando un ecosistema digital que sea:
+    Conscientes de estas limitaciones, **ToAgent** nace con la misión de democratizar el acceso a oportunidades, creando un ecosistema digital que sea:
     
     - **Seguro** 🔒  
       Implementamos tecnología Blockchain para garantizar la integridad y transparencia de cada transacción.
@@ -37,7 +37,7 @@ if seleccion == "🏠 Introducción":
     
     Nuestra plataforma integra soluciones tecnológicas de vanguardia, como contratos inteligentes, inteligencia artificial y filtros avanzados, para conectar de forma directa a los actores del mercado y facilitar negociaciones eficientes y seguras.
 
-    ¡Descubre cómo TransferbyAgent está redefiniendo el mercado de fichajes y permitiendo que el talento encuentre el camino hacia nuevas oportunidades!
+    ¡Descubre cómo ToAgent está redefiniendo el mercado de fichajes y permitiendo que el talento encuentre el camino hacia nuevas oportunidades!
     """)
 
 
@@ -105,7 +105,7 @@ elif seleccion == "❌ Problemas Detectados":
         Limitaciones en la toma de decisiones: Sin herramientas adecuadas, los clubes no élite tienen menos capacidad para anticiparse a oportunidades de mercado, afectando su competitividad y planificación deportiva.>.
             """)
 
-elif seleccion == "✅ Soluciones TransferbyAgent":
+elif seleccion == "✅ Soluciones ToAgent":
     st.header("3. Soluciones Clave para Agentes Independientes ")
     # Subsecciones de soluciones usando pestañas con emojis
     tab1, tab2, tab3, tab4 = st.tabs(["🌍 Acceso Global", "🤖 Validación y Promoción", "⏳ Gestión Eficiente", "🔒 Formalización de Procesos"])
@@ -171,7 +171,7 @@ elif seleccion == "✅ Soluciones TransferbyAgent":
     with tab3:
         st.subheader("⏳ Gestión Eficiente de Jugadores")
         st.write("""
-        TransferbyAgent proporciona herramientas integradas para el seguimiento del rendimiento, gestión de contratos y planificación de transferencias. Automatiza procesos administrativos como recordatorios de renovación de contratos y notificaciones de interés de clubes.
+        ToAgent proporciona herramientas integradas para el seguimiento del rendimiento, gestión de contratos y planificación de transferencias. Automatiza procesos administrativos como recordatorios de renovación de contratos y notificaciones de interés de clubes.
         
         ¿Qué soluciones ofrece TransferByAgent?
         
@@ -223,7 +223,7 @@ elif seleccion == "🏆 Soluciones Clave para Clubes de Categorías Inferiores":
     with tab1:
         st.subheader("📚 Acceso Centralizado a Información")
         st.write("""
-        TransferbyAgent ofrece una base de datos completa y actualizada de jugadores disponibles, filtrable por posición, edad, nacionalidad, estado contractual y valor de mercado.
+        ToAgent ofrece una base de datos completa y actualizada de jugadores disponibles, filtrable por posición, edad, nacionalidad, estado contractual y valor de mercado.
         
         Ejemplo: Un club de tercera división busca un delantero centro Sub-23 bajo €2K/mes y encuentra múltiples opciones en menos de 5 minutos.
         """)
@@ -231,7 +231,7 @@ elif seleccion == "🏆 Soluciones Clave para Clubes de Categorías Inferiores":
     with tab2:
         st.subheader("📩 Reducción de Sobrecarga")
         st.write("""
-        Los clubes pueden explorar opciones de forma autónoma en TransferbyAgent, eliminando llamadas innecesarias y mensajes saturados. La plataforma proporciona un historial detallado de todas las interacciones con agentes y jugadores, facilitando el seguimiento y toma de decisiones.
+        Los clubes pueden explorar opciones de forma autónoma en ToAgent, eliminando llamadas innecesarias y mensajes saturados. La plataforma proporciona un historial detallado de todas las interacciones con agentes y jugadores, facilitando el seguimiento y toma de decisiones.
         
         Ejemplo: Un director deportivo recibe alertas solo sobre jugadores relevantes, evitando perder tiempo en ofertas no válidas.
         """)
@@ -239,7 +239,7 @@ elif seleccion == "🏆 Soluciones Clave para Clubes de Categorías Inferiores":
     with tab3:
         st.subheader("🏆 Equidad Competitiva")
         st.write("""
-        TransferbyAgent niveló el campo de juego al proporcionar herramientas profesionales a todos los clubes, independientemente de su tamaño o presupuesto. Ofrece acceso igualitario a información detallada sobre jugadores, eliminando la ventaja injusta de quienes tienen más recursos.
+        ToAgent niveló el campo de juego al proporcionar herramientas profesionales a todos los clubes, independientemente de su tamaño o presupuesto. Ofrece acceso igualitario a información detallada sobre jugadores, eliminando la ventaja injusta de quienes tienen más recursos.
         
         Ejemplo: Un equipo semi-profesional tiene acceso a los mismos filtros avanzados que un equipo de primera división.
         """)
@@ -340,22 +340,22 @@ elif seleccion == "👥 Casos Prácticos":
 elif seleccion == "🏆 Conclusiones":
     st.header("6. Conclusiones 🏆")
     st.write("""
-    TransferbyAgent no es solo una plataforma, es una revolución en el mundo de las transferencias futbolísticas. Al eliminar las barreras estructurales que han mantenido a agentes independientes, clubes pequeños y jugadores emergentes al margen del mercado global, estamos creando un nuevo paradigma en el fútbol profesional.
+    ToAgent no es solo una plataforma, es una revolución en el mundo de las transferencias futbolísticas. Al eliminar las barreras estructurales que han mantenido a agentes independientes, clubes pequeños y jugadores emergentes al margen del mercado global, estamos creando un nuevo paradigma en el fútbol profesional.
 
-    Con TransferbyAgent, los actores más pequeños ya no tendrán que competir con desventajas tecnológicas, financieras y operativas. Nuestra plataforma empodera a todos los jugadores del ecosistema, permitiendo que accedan a oportunidades globales y transformando su capacidad de negociación.
+    Con ToAgent, los actores más pequeños ya no tendrán que competir con desventajas tecnológicas, financieras y operativas. Nuestra plataforma empodera a todos los jugadores del ecosistema, permitiendo que accedan a oportunidades globales y transformando su capacidad de negociación.
 
-    ¿Por qué TransferbyAgent es la única opción para el futuro del fútbol?
-    🔑 Acceso a oportunidades globales: Nunca más un club pequeño o un agente independiente tendrá que conformarse con un mercado limitado. TransferbyAgent abre puertas a más de 150 países, conectando a actores del fútbol de todo el mundo.
+    ¿Por qué ToAgent es la única opción para el futuro del fútbol?
+    🔑 Acceso a oportunidades globales: Nunca más un club pequeño o un agente independiente tendrá que conformarse con un mercado limitado. ToAgent abre puertas a más de 150 países, conectando a actores del fútbol de todo el mundo.
 
     ⚡ Tecnología de vanguardia al alcance de todos: Nuestra integración con Blockchain y IA no es solo para los grandes. Todos los usuarios pueden aprovechar estas tecnologías avanzadas para tomar decisiones informadas, transparentes y seguras.
 
     ⏱️ Productividad maximizada: La automatización de procesos y la optimización mediante herramientas inteligentes permiten a los agentes y clubes concentrarse en lo más importante: el desarrollo del talento y la mejora de su rendimiento. Es un cambio total en la forma de hacer negocios, donde el tiempo y los recursos son aprovechados al máximo.
 
-    💡 Un ecosistema democrático y accesible: TransferbyAgent no es un juego para unos pocos. Es para todos. Desde el agente independiente que busca abrirse camino hasta el club pequeño que aspira a competir con los grandes, todos tienen la misma oportunidad de crecer y prosperar.
+    💡 Un ecosistema democrático y accesible: ToAgent no es un juego para unos pocos. Es para todos. Desde el agente independiente que busca abrirse camino hasta el club pequeño que aspira a competir con los grandes, todos tienen la misma oportunidad de crecer y prosperar.
     
-    El futuro del fútbol es inclusivo, y TransferbyAgent es su motor.
+    El futuro del fútbol es inclusivo, y ToAgent es su motor.
     """)
 
 # Footer con emojis
 st.write("---")
-st.caption("Transferbyagent | 🌍 Donde el talento encuentra oportunidad")
+st.caption("TOAGENT | 🌍 Donde el talento encuentra oportunidad")
