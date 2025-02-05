@@ -20,7 +20,7 @@ if seleccion == "🏠 Introducción":
 
     # Contenido de la introducción
     st.markdown("""
-    **Bienvenidos a ToAgent**, la plataforma revolucionaria que está transformando el mundo de las transferencias en el fútbol profesional.
+    **Presentación de proyecto empresarial ToAgent**, Una plataforma revolucionaria que transformará el mundo de las transferencias en el fútbol.
 
     El fútbol es mucho más que un deporte; es un vibrante ecosistema que une pasión, talento y oportunidades. Sin embargo, el sistema tradicional de transferencias enfrenta desafíos estructurales que afectan a **agentes independientes**, **clubes pequeños** y **jugadores emergentes**. De acuerdo con el informe oficial de la FIFA 2024, solo el **5% de las agencias maneja el 60% de todas las transferencias internacionales**, lo que deja a muchos actores en una posición de desventaja.
 
