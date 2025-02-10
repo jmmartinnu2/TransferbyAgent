@@ -1,11 +1,11 @@
 import streamlit as st
 
 # Configuración inicial de Streamlit
-st.set_page_config(page_title="FUTMATCH PRO - Presentación", layout="wide")
+st.set_page_config(page_title="TOTRANSFER PRO - Presentación", layout="wide")
 
 # Barra lateral: Menú principal con emojis 📋
 st.sidebar.title("📋 Menú de Navegación")
-secciones = ["🏠 Introducción", "❌ Problemas Detectados", "✅ Soluciones FUTMATCH PRO", 
+secciones = ["🏠 Introducción", "❌ Problemas Detectados", "✅ Soluciones TOTRANSFER PRO", 
              "📊 Datos del Informe FIFA", "👥 Casos Prácticos",  "🏆 Conclusiones"]
 seleccion = st.sidebar.radio("Selecciona una sección:", secciones)
 
@@ -13,18 +13,18 @@ if seleccion == "🏠 Introducción":
     # Mostrar el logotipo centrado sin espacios extra
     col1, col2, col3 = st.columns([1, 3, 1])
     with col2:
-        st.image("logo-futmatch.png", width=800)
+        st.image("totransferpro.png", width=800)
 
     # Separador
     st.markdown("---")
 
     # Contenido de la introducción
     st.markdown("""
-    **Presentación de proyecto empresarial FUTMATCH PRO**, Una plataforma revolucionaria que transformará el mundo de las transferencias en el fútbol.
+    **Presentación de proyecto empresarial TOTRANSFER PRO**, Una plataforma revolucionaria que transformará el mundo de las transferencias en el fútbol.
 
     El fútbol es mucho más que un deporte; es un vibrante ecosistema que une pasión, talento y oportunidades. Sin embargo, el sistema tradicional de transferencias enfrenta desafíos estructurales que afectan a **agentes independientes**, **clubes pequeños** y **jugadores emergentes**. De acuerdo con el informe oficial de la FIFA 2024, solo el **5% de las agencias maneja el 60% de todas las transferencias internacionales**, lo que deja a muchos actores en una posición de desventaja.
 
-    Conscientes de estas limitaciones, **FUTMATCH PRO** nace con la misión de democratizar el acceso a oportunidades, creando un ecosistema digital que sea:
+    Conscientes de estas limitaciones, **TOTRANSFER PRO** nace con la misión de democratizar el acceso a oportunidades, creando un ecosistema digital que sea:
     
     - **Seguro** 🔒  
       Implementamos tecnología Blockchain para garantizar la integridad y transparencia de cada transacción.
@@ -37,7 +37,7 @@ if seleccion == "🏠 Introducción":
     
     Nuestra plataforma integra soluciones tecnológicas de vanguardia, como contratos inteligentes, inteligencia artificial y filtros avanzados, para conectar de forma directa a los actores del mercado y facilitar negociaciones eficientes y seguras.
 
-    ¡Descubre cómo FUTMATCH PRO está redefiniendo el mercado de fichajes y permitiendo que el talento encuentre el camino hacia nuevas oportunidades!
+    ¡Descubre cómo TOTRANSFER PRO está redefiniendo el mercado de fichajes y permitiendo que el talento encuentre el camino hacia nuevas oportunidades!
     """)
 
 
@@ -105,7 +105,7 @@ elif seleccion == "❌ Problemas Detectados":
         Limitaciones en la toma de decisiones: Sin herramientas adecuadas, los clubes no élite tienen menos capacidad para anticiparse a oportunidades de mercado, afectando su competitividad y planificación deportiva.>.
             """)
 
-elif seleccion == "✅ Soluciones FUTMATCH PRO":
+elif seleccion == "✅ Soluciones TOTRANSFER PRO":
     st.header("3. Soluciones Clave para Agentes Independientes ")
     # Subsecciones de soluciones usando pestañas con emojis
     tab1, tab2, tab3, tab4 = st.tabs(["🌍 Acceso Global", "🤖 Validación y Promoción", "⏳ Gestión Eficiente", "🔒 Formalización de Procesos"])
@@ -113,7 +113,7 @@ elif seleccion == "✅ Soluciones FUTMATCH PRO":
     with tab1:
         st.subheader("🌍 Acceso Global a Mercados")
         st.write("""
-        FUTMATCH PRO rompe las barreras geográficas en la industria del fútbol, permitiendo que agentes y clubes de cualquier parte del mundo se conecten sin depender exclusivamente de redes de contacto personales o intermediarios. Con acceso a más de 150 países, la plataforma facilita la expansión del mercado de fichajes, abriendo nuevas oportunidades para jugadores, agentes y clubes en diferentes ligas y niveles de competición.
+        TOTRANSFER PRO rompe las barreras geográficas en la industria del fútbol, permitiendo que agentes y clubes de cualquier parte del mundo se conecten sin depender exclusivamente de redes de contacto personales o intermediarios. Con acceso a más de 150 países, la plataforma facilita la expansión del mercado de fichajes, abriendo nuevas oportunidades para jugadores, agentes y clubes en diferentes ligas y niveles de competición.
         
         ¿Qué beneficios ofrece este acceso global?
         
@@ -131,7 +131,7 @@ elif seleccion == "✅ Soluciones FUTMATCH PRO":
         
         Ejemplos de casos reales:
         
-        📌 Un agente peruano que representa a un mediocampista defensivo puede subir su perfil a FUTMATCH PRO y, en menos de 72 horas, recibir interés de clubes portugueses o italianos que buscan un jugador con su perfil.
+        📌 Un agente peruano que representa a un mediocampista defensivo puede subir su perfil a TOTRANSFER PRO y, en menos de 72 horas, recibir interés de clubes portugueses o italianos que buscan un jugador con su perfil.
 
         📌 Un club de la segunda división de México necesita un delantero con experiencia en ligas sudamericanas. A través de la plataforma, puede encontrar a un atacante argentino sin necesidad de intermediarios externos, optimizando tiempo y costos en la negociación.
         """)
@@ -139,7 +139,7 @@ elif seleccion == "✅ Soluciones FUTMATCH PRO":
     with tab2:
         st.subheader("🤖 Validación y Promoción de Jugadores")
         st.write("""
-        FUTMATCH PRO se integra con APIs especializadas en datos de fútbol, lo que permite recopilar información en tiempo real sobre jugadores, estadísticas, videos y estado contractual. En lugar de depender exclusivamente de scouting manual o informes subjetivos, la plataforma obtiene datos estructurados y verificables desde fuentes confiables para validar y promocionar jugadores ante clubes de todo el mundo.
+        TOTRANSFER PRO se integra con APIs especializadas en datos de fútbol, lo que permite recopilar información en tiempo real sobre jugadores, estadísticas, videos y estado contractual. En lugar de depender exclusivamente de scouting manual o informes subjetivos, la plataforma obtiene datos estructurados y verificables desde fuentes confiables para validar y promocionar jugadores ante clubes de todo el mundo.
 
         ¿Cómo funciona este proceso?
         
@@ -153,7 +153,7 @@ elif seleccion == "✅ Soluciones FUTMATCH PRO":
         Estado contractual y valor de mercado estimado
         
         ✅ Creación de perfiles de jugadores en tiempo real
-        Cuando un agente sube un jugador a FUTMATCH PRO, la plataforma consulta automáticamente la API para completar su perfil con información validada y actualizada, evitando la carga manual de datos y reduciendo errores.
+        Cuando un agente sube un jugador a TOTRANSFER PRO, la plataforma consulta automáticamente la API para completar su perfil con información validada y actualizada, evitando la carga manual de datos y reduciendo errores.
 
         ✅ Recomendación inteligente de clubes
         Basándose en los criterios declarados por los clubes (posición, estilo de juego, disponibilidad, nivel competitivo), el sistema filtra jugadores dentro de la base de datos y sugiere automáticamente candidatos que encajan con sus necesidades.
@@ -171,9 +171,9 @@ elif seleccion == "✅ Soluciones FUTMATCH PRO":
     with tab3:
         st.subheader("⏳ Gestión Eficiente de Jugadores")
         st.write("""
-        FUTMATCH PRO proporciona herramientas integradas para el seguimiento del rendimiento, gestión de contratos y planificación de transferencias. Automatiza procesos administrativos como recordatorios de renovación de contratos y notificaciones de interés de clubes.
+        TOTRANSFER PRO proporciona herramientas integradas para el seguimiento del rendimiento, gestión de contratos y planificación de transferencias. Automatiza procesos administrativos como recordatorios de renovación de contratos y notificaciones de interés de clubes.
         
-        ¿Qué soluciones ofrece FUTMATCH PRO?
+        ¿Qué soluciones ofrece TOTRANSFER PRO?
         
         ✅ Acceso centralizado a información
         Los clubes podrán visualizar en un solo lugar la situación de jugadores representados por agentes y agencias, con información fiable y actualizada sobre su disponibilidad en el mercado.
@@ -192,7 +192,7 @@ elif seleccion == "✅ Soluciones FUTMATCH PRO":
     with tab4:
         st.subheader("🔒 Formalización de Procesos")
         st.write("""
-        FUTMATCH PRO lleva la transparencia y seguridad en las transferencias de jugadores a otro nivel mediante el uso de contratos inteligentes y tecnología blockchain. Con estos mecanismos, todos los acuerdos entre clubes y agentes quedan registrados de forma inmutable, eliminando riesgos de incumplimientos, malentendidos o disputas legales.
+        TOTRANSFER PRO lleva la transparencia y seguridad en las transferencias de jugadores a otro nivel mediante el uso de contratos inteligentes y tecnología blockchain. Con estos mecanismos, todos los acuerdos entre clubes y agentes quedan registrados de forma inmutable, eliminando riesgos de incumplimientos, malentendidos o disputas legales.
 
         ¿Cómo funciona este proceso?
         
@@ -210,7 +210,7 @@ elif seleccion == "✅ Soluciones FUTMATCH PRO":
 
         Ejemplo de casos reales:
         
-        📌 Un agente negocia la cesión de un delantero a un club europeo. Ambas partes firman un contrato inteligente en FUTMATCH PRO, estableciendo que la comisión del agente se libere automáticamente cuando el jugador complete su debut oficial. Al cumplirse la condición, el pago se procesa sin retrasos ni intervención manual.
+        📌 Un agente negocia la cesión de un delantero a un club europeo. Ambas partes firman un contrato inteligente en TOTRANSFER PRO, estableciendo que la comisión del agente se libere automáticamente cuando el jugador complete su debut oficial. Al cumplirse la condición, el pago se procesa sin retrasos ni intervención manual.
 
         📌 Un club ficha a un mediocampista con una cláusula de rendimiento. Gracias al sistema blockchain, la plataforma verifica automáticamente si el jugador ha cumplido con los objetivos pactados (ejemplo: 20 partidos jugados), activando el pago de un bono adicional sin necesidad de renegociaciones o disputas.
         """)
@@ -223,7 +223,7 @@ elif seleccion == "🏆 Soluciones Clave para Clubes de Categorías Inferiores":
     with tab1:
         st.subheader("📚 Acceso Centralizado a Información")
         st.write("""
-        FUTMATCH PRO ofrece una base de datos completa y actualizada de jugadores disponibles, filtrable por posición, edad, nacionalidad, estado contractual y valor de mercado.
+        TOTRANSFER PRO ofrece una base de datos completa y actualizada de jugadores disponibles, filtrable por posición, edad, nacionalidad, estado contractual y valor de mercado.
         
         Ejemplo: Un club de tercera división busca un delantero centro Sub-23 bajo €2K/mes y encuentra múltiples opciones en menos de 5 minutos.
         """)
@@ -231,7 +231,7 @@ elif seleccion == "🏆 Soluciones Clave para Clubes de Categorías Inferiores":
     with tab2:
         st.subheader("📩 Reducción de Sobrecarga")
         st.write("""
-        Los clubes pueden explorar opciones de forma autónoma en FUTMATCH PRO, eliminando llamadas innecesarias y mensajes saturados. La plataforma proporciona un historial detallado de todas las interacciones con agentes y jugadores, facilitando el seguimiento y toma de decisiones.
+        Los clubes pueden explorar opciones de forma autónoma en TOTRANSFER PRO, eliminando llamadas innecesarias y mensajes saturados. La plataforma proporciona un historial detallado de todas las interacciones con agentes y jugadores, facilitando el seguimiento y toma de decisiones.
         
         Ejemplo: Un director deportivo recibe alertas solo sobre jugadores relevantes, evitando perder tiempo en ofertas no válidas.
         """)
@@ -239,7 +239,7 @@ elif seleccion == "🏆 Soluciones Clave para Clubes de Categorías Inferiores":
     with tab3:
         st.subheader("🏆 Equidad Competitiva")
         st.write("""
-        FUTMATCH PRO niveló el campo de juego al proporcionar herramientas profesionales a todos los clubes, independientemente de su tamaño o presupuesto. Ofrece acceso igualitario a información detallada sobre jugadores, eliminando la ventaja injusta de quienes tienen más recursos.
+        TOTRANSFER PRO niveló el campo de juego al proporcionar herramientas profesionales a todos los clubes, independientemente de su tamaño o presupuesto. Ofrece acceso igualitario a información detallada sobre jugadores, eliminando la ventaja injusta de quienes tienen más recursos.
         
         Ejemplo: Un equipo semi-profesional tiene acceso a los mismos filtros avanzados que un equipo de primera división.
         """)
@@ -301,7 +301,7 @@ elif seleccion == "👥 Casos Prácticos":
     
     st.subheader("👨‍💼 Caso de Agente Independiente")
     st.write("""
-    Un agente peruano representa a un mediocampista defensivo joven con gran potencial. Sin acceso a redes globales, le resultaba difícil encontrar oportunidades para su jugador. Con **FUTMATCH PRO**:
+    Un agente peruano representa a un mediocampista defensivo joven con gran potencial. Sin acceso a redes globales, le resultaba difícil encontrar oportunidades para su jugador. Con **TOTRANSFER PRO**:
     - 📝 **Perfil Completo:** Sube el perfil del jugador a la plataforma, incluyendo videos, estadísticas y un análisis de IA que valida su calidad.
     - 🔎 **Búsqueda Eficiente:** Utiliza filtros avanzados para identificar clubes interesados en jugadores con características similares.
     - 📩 **Negociaciones Directas:** Recibe ofertas directamente a través de la plataforma, eliminando intermediarios y asegurando transparencia en las negociaciones.
@@ -310,7 +310,7 @@ elif seleccion == "👥 Casos Prácticos":
         
     st.subheader("⚽ Caso de Club 3ª División")
     st.write("""
-    Un club de 3ª división busca un delantero centro joven con experiencia internacional. Sin herramientas tecnológicas, este proceso sería extremadamente complicado. Con **FUTMATCH PRO**:
+    Un club de 3ª división busca un delantero centro joven con experiencia internacional. Sin herramientas tecnológicas, este proceso sería extremadamente complicado. Con **TOTRANSFER PRO**:
     - 📋 **Búsqueda Específica:** Ingresa a la plataforma y aplica filtros avanzados: "Delantero centro", "Edad: 18-23 años", "Experiencia internacional", "Estado: Libre".
     - 📊 **Exploración de Opciones:** Revisa los resultados y selecciona los jugadores de interés.
     - 📩 **Comunicación Directa:** Envía ofertas directamente desde la plataforma y recibe respuestas en tiempo real.
@@ -319,7 +319,7 @@ elif seleccion == "👥 Casos Prácticos":
         
     st.subheader("🤝 Caso de colaboración entre Agentes (Agentes Vinculados)")
     st.write("""
-    Dos agentes, uno de Argentina y otro de México, deciden unir esfuerzos para promover el perfil de un mediocampista ofensivo que ha mostrado un rendimiento sobresaliente. Con **FUTMATCH PRO**:
+    Dos agentes, uno de Argentina y otro de México, deciden unir esfuerzos para promover el perfil de un mediocampista ofensivo que ha mostrado un rendimiento sobresaliente. Con **TOTRANSFER PRO**:
     - 🔄 **Intercambio de Información:** Cada agente sube y comparte el perfil del jugador, enriquecido con datos validados y análisis de IA.
     - 🌍 **Estrategia Conjunta:** Utilizan la plataforma para coordinar una estrategia conjunta, identificando clubes internacionales interesados en perfiles similares.
     - 🤝 **Negociación Coordinada:** Al recibir ofertas, los agentes trabajan en conjunto para negociar de forma coordinada, asegurando que ambas partes sean reconocidas.
@@ -328,7 +328,7 @@ elif seleccion == "👥 Casos Prácticos":
     
     st.subheader("🌍 Caso de red de Agentes Internacionales")
     st.write("""
-    Una red de agentes de distintos países forma una alianza estratégica para impulsar a jugadores emergentes en mercados globales. Con **FUTMATCH PRO**:
+    Una red de agentes de distintos países forma una alianza estratégica para impulsar a jugadores emergentes en mercados globales. Con **TOTRANSFER PRO**:
     - 📡 **Intercambio Global:** Los agentes integran sus perfiles de jugadores, enriquecidos con análisis de rendimiento y videos destacados, en una base de datos compartida.
     - 💼 **Acceso a Mercados:** Aprovechan el acceso a más de 150 países para promocionar oportunidades y ofertas de transferencias.
     - 🔍 **Validación y Transparencia:** Gracias a la integración de APIs, IA y registro en Blockchain, toda la información es validada y transparente, generando confianza entre las partes.
@@ -340,22 +340,22 @@ elif seleccion == "👥 Casos Prácticos":
 elif seleccion == "🏆 Conclusiones":
     st.header("6. Conclusiones 🏆")
     st.write("""
-    FUTMATCH PRO no es solo una plataforma, es una revolución en el mundo de las transferencias futbolísticas. Al eliminar las barreras estructurales que han mantenido a agentes independientes, clubes pequeños y jugadores emergentes al margen del mercado global, estamos creando un nuevo paradigma en el fútbol profesional.
+    TOTRANSFER PRO no es solo una plataforma, es una revolución en el mundo de las transferencias futbolísticas. Al eliminar las barreras estructurales que han mantenido a agentes independientes, clubes pequeños y jugadores emergentes al margen del mercado global, estamos creando un nuevo paradigma en el fútbol profesional.
 
-    Con FUTMATCH PRO, los actores más pequeños ya no tendrán que competir con desventajas tecnológicas, financieras y operativas. Nuestra plataforma empodera a todos los jugadores del ecosistema, permitiendo que accedan a oportunidades globales y transformando su capacidad de negociación.
+    Con TOTRANSFER PRO, los actores más pequeños ya no tendrán que competir con desventajas tecnológicas, financieras y operativas. Nuestra plataforma empodera a todos los jugadores del ecosistema, permitiendo que accedan a oportunidades globales y transformando su capacidad de negociación.
 
-    ¿Por qué FUTMATCH PRO es la única opción para el futuro del fútbol?
-    🔑 Acceso a oportunidades globales: Nunca más un club pequeño o un agente independiente tendrá que conformarse con un mercado limitado. FUTMATCH PRO abre puertas a más de 150 países, conectando a actores del fútbol de todo el mundo.
+    ¿Por qué TOTRANSFER PRO es la única opción para el futuro del fútbol?
+    🔑 Acceso a oportunidades globales: Nunca más un club pequeño o un agente independiente tendrá que conformarse con un mercado limitado. TOTRANSFER PRO abre puertas a más de 150 países, conectando a actores del fútbol de todo el mundo.
 
     ⚡ Tecnología de vanguardia al alcance de todos: Nuestra integración con Blockchain y IA no es solo para los grandes. Todos los usuarios pueden aprovechar estas tecnologías avanzadas para tomar decisiones informadas, transparentes y seguras.
 
     ⏱️ Productividad maximizada: La automatización de procesos y la optimización mediante herramientas inteligentes permiten a los agentes y clubes concentrarse en lo más importante: el desarrollo del talento y la mejora de su rendimiento. Es un cambio total en la forma de hacer negocios, donde el tiempo y los recursos son aprovechados al máximo.
 
-    💡 Un ecosistema democrático y accesible: FUTMATCH PRO no es un juego para unos pocos. Es para todos. Desde el agente independiente que busca abrirse camino hasta el club pequeño que aspira a competir con los grandes, todos tienen la misma oportunidad de crecer y prosperar.
+    💡 Un ecosistema democrático y accesible: TOTRANSFER PRO no es un juego para unos pocos. Es para todos. Desde el agente independiente que busca abrirse camino hasta el club pequeño que aspira a competir con los grandes, todos tienen la misma oportunidad de crecer y prosperar.
     
-    El futuro del fútbol es inclusivo, y FUTMATCH PRO es su motor.
+    El futuro del fútbol es inclusivo, y TOTRANSFER PRO es su motor.
     """)
 
 # Footer con emojis
 st.write("---")
-st.caption("FUTMATCH PRO | 🌍 Donde el talento encuentra oportunidad")
+st.caption("TOTRANSFER PRO | 🌍 Donde el talento encuentra oportunidad")
