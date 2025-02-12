@@ -249,7 +249,7 @@ def show_proyecciones():
         <p>Estimaciones de crecimiento de ingresos y optimización de costos a 3-5 años, con enfoque en la escalabilidad.</p>
         <h2 class='subtitle'>Requerimientos de Inversión</h2>
         <ul>
-          <li><strong>Monto solicitado:</strong> [Cantidad en USD o moneda local]</li>
+          <li><strong>Monto solicitado:</strong> A estimar trabajando en ello</li>
           <li><strong>Uso de Fondos:</strong>
             <ul>
               <li>Desarrollo y mejoras de la plataforma.</li>
