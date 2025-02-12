@@ -22,7 +22,7 @@ menu = st.sidebar.radio(
 
 # Sección: PORTADA
 if menu == "🏆 Portada":
-    st.image("futransfer.svg", use_column_width=True)
+    st.image("futransfer.svg", width=1000)
     st.write("👔 **Fundador:** [Tu Nombre] | 📧 **Contacto:** [Tu Email]")
 
 # Sección: PROBLEMA
